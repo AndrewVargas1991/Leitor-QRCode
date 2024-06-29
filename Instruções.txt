@@ -1,0 +1,23 @@
+Instruções de uso do programa Leitor QRCode
+
+1- Abra o programa "Leitor QRCode.py" com o interpretador do Python;
+OBS: Caso você não tenha o IDLE (interpretador do Python), baixe-o no site https://www.python.org
+
+2ª OBS: Caso você não tenha instalado as bibliotecas Pillow e PyZBar, abra o Processador de comandos (CMD) e digite o seguinte comando:
+pip install pillow
+pip install pyzbar
+
+2- Instale o programa ZBar no computador, para isso, execute o arquivo "Instalador do ZBar.exe" e faça
+a instalação normalmente;
+
+OBS: Caso você esteja usando um sistema GNU/Linux, abra o Shell do sistema e xecute o seguinte comando:
+sudo apt-get install zbar-tools -y
+
+3- Gere uma imagem QR Code, se você não tiver um programa para isso, baixe meu outro script no endereço:
+https://github.com/AndrewVargas1991/Gerador-QRCode
+
+DICA: Você pode utilizar um gerador de QR Code online, basta pesquisar no Google. Ou se quiser apenas
+fazer um teste, use a imagem chamada "code.png" localizada na pasta imagens.
+
+4- Selecione a imagem gerada em QR Code. PRONTO! Se tudo for feito corretamente, o conteúdo da imagem
+QR Code será exibida na tela.
